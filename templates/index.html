@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex Matching</title>
+</head>
+<body>
+    <h1>Regex Matcher</h1>
+    <form action="/match" method="POST">
+        <label for="test_string">Test String:</label>
+        <input type="text" name="test_string" required><br><br>
+        <label for="regex_pattern">Regex Pattern:</label>
+        <input type="text" name="regex_pattern" required><br><br>
+        <input type="submit" value="Match">
+    </form>
+
+    <h2>Email Validator</h2>
+    <form action="/validate-email" method="POST">
+        <label for="email">Email:</label>
+        <input type="text" name="email" required><br><br>
+        <input type="submit" value="Validate">
+    </form>
+</body>
+</html>
