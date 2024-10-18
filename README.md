@@ -7,11 +7,18 @@ Regular expression (RegEx) matching is a method of searching, finding, and manip
 
 # Steps:
 1.Create a new directory
+
 2.Set up virtual development environment to install Flask, a Python web framework
+
 3.Initialize a new Flask application
+
 4.Create HTML templates
+
 5.Define a route to handle form submission
+
 6.Render the results
 7.Test the application
+
 8.Add-on: Implement a new route where a user can validate if a given email id is valid or not.
+
 9.Deploy the application on AWS Cloud.
